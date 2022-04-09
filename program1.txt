@@ -1,0 +1,23 @@
+
+
+public class Solution {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		float principal;
+		float numberOfYears;
+		float rateOfInterest;
+		float simpleInterest;
+		float totalAmount;
+    // Assuming the values for principal,numberOfYears, rateOfInterest, simpleInterest	
+		principal = 10000f;
+		rateOfInterest = 12;
+		numberOfYears = 5;
+		simpleInterest = (principal*rateOfInterest*numberOfYears)/100;
+		totalAmount = principal + simpleInterest;
+		System.out.println("Total amount = "+totalAmount);
+				
+
+	}
+
+}

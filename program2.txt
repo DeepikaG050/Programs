@@ -1,0 +1,33 @@
+
+
+public class SchoolRecords {
+String schoolName;
+String schoolAddress;
+int schoolId;
+void ddRecords() {
+	System.out.println("Added records");
+}
+void dispRecords() {
+	System.out.println("School Name is "+schoolName);
+	System.out.println("School Address is "+schoolAddress);
+	System.out.println("School ID is "+schoolId);
+	System.out.println("Displayed records");
+}
+
+}
+
+
+public class Tester {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SchoolRecords sch = new SchoolRecords();
+		sch.schoolName="BCS Jain School";
+		sch.schoolAddress="No. 62, Red fort street, Chennai";
+		sch.schoolId=614590;
+		sch.ddRecords();
+		sch.dispRecords();
+
+	}
+
+}
